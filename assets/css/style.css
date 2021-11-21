@@ -1,0 +1,169 @@
+    body {
+        background: #f1f2f7!important;
+    }
+    /* i {
+        color: #fff!important;
+    } */
+    
+    .sidebar-header h2 {
+        color: white !important;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .toggler i {
+        color: #790024;
+    }
+    
+    .sidebar-wrapper {
+        background: #790024;
+    }
+    
+    .sidebar-wrapper .menu {
+        padding-left: 1rem;
+    }
+    
+    .sidebar-wrapper .menu .sidebar-link {
+        color: #fff;
+    }
+    
+    .sidebar-header {
+        border-bottom: 1px solid #000;
+    }
+    
+    .sidebar-wrapper .menu .sidebar-title {
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .sidebar-wrapper .menu .submenu .submenu-item a {
+        font-size: 12px;
+        color: #fff;
+        line-height: 3;
+        display: inline;
+    }
+    
+    .sidebar-wrapper .menu .sidebar-item.active .sidebar-link {
+        background-color: #968827;
+    }
+    
+    .sidebar-wrapper .menu .sidebar-item.has-sub .sidebar-link::after {
+        color: #fff!important;
+    }
+    
+    .new {
+        background: #db3540;
+        padding: 0px 5px;
+        margin-left: 2px !important;
+        position: absolute;
+        left: 180px;
+        top: 12px;
+    }
+    
+    .page-heading {
+        background-color: #fff;
+        text-align: right;
+        padding: 10px 30px;
+        margin: 0px !important;
+        border-bottom: 2px solid #dddcdf;
+    }
+    
+    .page-heading img {
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    
+    .page-heading i::before {
+        margin-top: 5px;
+    }
+    
+    .up-bar {
+        background-color: #fff;
+        font-size: 24px;
+        padding: 10px 2px;
+        border: 2px solid #dddcdf;
+        margin: 0px auto 40px;
+    }
+    
+    .up-bar i {
+        color: #968827;
+    }
+    
+    .section .card {
+        border-radius: 0px !important;
+    }
+    
+    .dataTable-sorter {
+        color: #606060;
+    }
+    
+    table {
+        margin-top: 20px;
+    }
+    
+    .sidebar-wrapper .menu .submenu .submenu-item>i {
+        margin-left: 8px;
+    }
+    
+    .sidebar-wrapper .menu .submenu .submenu-item.active {
+        background-color: #fff;
+    }
+    
+    .sidebar-wrapper .menu .submenu .submenu-item.active>a {
+        color: #790024;
+    }
+    
+    .sidebar-wrapper .menu .submenu .submenu-item.active>i {
+        color: #790024;
+    }
+    
+    .submenu-item i {
+        color: #fff;
+    }
+    /* Approved Bookings Page Code  */
+    
+    .booking-main {
+        background-color: #fff;
+    }
+    
+    .btn1 {
+        padding: 5px 60px;
+        background: #968827;
+        color: #fff;
+        border: none;
+        border-radius: 0px;
+    }
+    
+    .btn2 {
+        display: inline;
+        padding: 5px 10px;
+        background: #968827;
+        color: #fff;
+        border: 1px solid #77785a;
+        border-radius: 0px;
+    }
+    
+    .btn-group {
+        margin-top: 20px;
+    }
+    
+    .booking-t {
+        background-color: #d7d8dc!important;
+        font-size: 12px;
+        font-weight: 700;
+        color: #000;
+    }
+    
+    .booking-ref {
+        color: #3280d6;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    th,
+    td {
+        white-space: nowrap;
+        font-size: 12px;
+    }

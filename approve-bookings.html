@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendors/iconly/bold.css">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/vendors/simple-datatables/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-center">
+                        <h2>Super Admin</h2>
+                        <div class="toggler">
+                            <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+
+                        <li class="sidebar-item ">
+                            <a href="index.html" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-stack"></i>
+                                <span>User Management</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-collection-fill"></i>
+                                <span>Agent Management</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Account Request</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Denied Accounts</a>
+                                </li>
+                                <li class="submenu-item">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Approved Accounts</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Inactive Accounts</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Document Request</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-collection-fill"></i>
+                                <span>Wallet Management</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item  has-sub active">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Bookings</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Booking Request</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Denied Bookings</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Cancelled Bookings</a>
+                                </li>
+                                <li class="submenu-item active">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Approved Bookings</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Inventory Management</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Category</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Reports</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Invoices</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Credit Notes</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>VAT Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Coupons</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+            </div>
+        </div>
+        <div class="page-heading">
+            <i class="bi bi-bell-fill"></i>
+            <img src="assets/images/faces/1.jpg" alt="">
+        </div>
+        <div id="main">
+            <header class="">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+            </header>
+            <div class="page-content">
+                <div class="row up-bar">
+                    <div class="col-md-12">
+                        <i class="bi bi-file-check-fill"></i>
+                        <span>Approved Bookings</span>
+                    </div>
+                </div>
+                <div id="input-style">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title"></h4>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="squareText">Start Date:</label>
+                                                    <input type="date" id="squareText" class="form-control square" placeholder="S">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="squareText">End Date:</label>
+                                                    <input type="date" id="squareText" class="form-control square" placeholder="S">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6"></div>
+                                            <div class="col-md-6">
+                                                <button class="btn1">Apply</button>
+                                            </div>
+                                            <div class="col-md-6"></div>
+                                            <div class="col-md-6 btn-group">
+                                                <div class="btn2">Copy</div>
+                                                <div class="btn2">PDF</div>
+                                                <div class="btn2">Excel</div>
+                                                <div class="btn2">CSV</div>
+                                                <div class="btn2">Print</div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="section">
+                                        <div class="card">
+                                            <!-- <div class="card-header">
+                                            </div> -->
+                                            <div class="card-body">
+                                                <table class="table table-bordered" id="table1">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Company</th>
+                                                            <th>Travel Date</th>
+                                                            <th>Booking Name</th>
+                                                            <th>Tour Name</th>
+                                                            <th>Transport Type</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td colspan="5" class="booking-t">Booking Ref: <span class="booking-ref">1637317572</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>UHM VACATION PVT LTD</td>
+                                                            <td>20th Nov 2021</td>
+                                                            <td>19th Nove 2021 02:33:57</td>
+                                                            <td>AIRPORT DEPARTURE TRANSFER 7 SEATER With PRIVATE ONE WAY</td>
+                                                            <td>PRIVATE</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="booking-t">Booking Ref: <span class="booking-ref">1637317572</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>UHM VACATION PVT LTD</td>
+                                                            <td>20th Nov 2021</td>
+                                                            <td>19th Nove 2021 02:33:57</td>
+                                                            <td>AIRPORT DEPARTURE TRANSFER 7 SEATER With PRIVATE ONE WAY</td>
+                                                            <td>PRIVATE</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>UHM VACATION PVT LTD</td>
+                                                            <td>20th Nov 2021</td>
+                                                            <td>19th Nove 2021 02:33:57</td>
+                                                            <td>AIRPORT DEPARTURE TRANSFER 7 SEATER With PRIVATE ONE WAY</td>
+                                                            <td>PRIVATE</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>UHM VACATION PVT LTD</td>
+                                                            <td>20th Nov 2021</td>
+                                                            <td>19th Nove 2021 02:33:57</td>
+                                                            <td>AIRPORT DEPARTURE TRANSFER 7 SEATER With PRIVATE ONE WAY</td>
+                                                            <td>PRIVATE</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="5" class="booking-t">Booking Ref: <span class="booking-ref">1637317572</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>UHM VACATION PVT LTD</td>
+                                                            <td>20th Nov 2021</td>
+                                                            <td>19th Nove 2021 02:33:57</td>
+                                                            <td>AIRPORT DEPARTURE TRANSFER 7 SEATER With PRIVATE ONE WAY</td>
+                                                            <td>PRIVATE</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </dic>
+
+                </div>
+
+
+                <footer>
+                    <div class="footer clearfix mb-0 text-muted">
+                        <div class="float-start">
+                            <p>Version 1.4.5</p>
+                        </div>
+                        <div class="float-end"></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+        <script src="assets/vendors/apexcharts/apexcharts.js"></script>
+        <script src="assets/js/pages/dashboard.js"></script>
+
+        <script src="assets/vendors/simple-datatables/simple-datatables.js"></script>
+        <script>
+            // Simple Datatable
+            let table1 = document.querySelector('#table1');
+            let dataTable = new simpleDatatables.DataTable(table1);
+        </script>
+
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>

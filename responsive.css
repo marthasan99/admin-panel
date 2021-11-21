@@ -1,0 +1,298 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body{
+    text-align: center;
+  }
+  .banner{
+    background: white;
+  }
+  .banner .row .col-md-6{
+    flex-basis: 100%;
+  }
+  .banner-left .icon-01 {
+    font-size: 18px;
+    position: absolute;
+    z-index: 1200;
+    top: 0px;
+    left: 0px;
+  }
+  .ultimate{
+    padding-top: 0px;
+  }
+  .ultimate h1 {
+    padding-right: 0px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .download-l img {
+    padding-bottom: 24px;
+  }
+  .hidden{
+    visibility: visible;
+  }
+  .testimonial .hidden{
+    visibility: hidden !important;
+
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .hidden{
+    visibility: visible;
+  }
+  .banner{
+    padding: 36px 0px;
+  }
+  .company{
+    padding: 36px 0px;
+  }
+  .features-02 p{
+    padding-right: 0px;
+  }
+  .design .design-right p{
+    padding-top: 18px;
+  }
+  .testimonial{
+    background: none;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  body{
+    text-align: center;
+  }
+  .banner{
+    background: white;
+  }
+  .banner .row{
+    flex-direction: column-reverse;
+  }
+  .jackpot h1{
+    border: none;
+  }
+  .ultimate h1 {
+    padding-right: 0px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .testimonial{
+    background: white;
+  }
+  .download .row{
+    flex-direction: column-reverse;
+  }
+
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+  
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body{
+    text-align: center;
+  }
+  h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.circle::before{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  top: -10%;
+}
+.circle::after{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  top: -10%;
+}
+
+  .banner{
+    background: white;
+    padding: 0px;
+    padding-bottom: 60px;
+  }
+  .banner .row{
+    flex-direction: column-reverse;
+  }
+  .banner-left .editors{
+    font-size: 14px;
+  }
+  .banner-left .icon-01 {
+    top: -3px;
+    left: -7px;
+  }
+  .banner-left .icon-01 img{
+    width: 67%;
+  }
+  .banner-left h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .company{
+    padding: 0px;
+  }
+  .features{
+    padding: 30px 0px;
+  }
+  .features-right {
+    text-align: center;
+  }
+  .features-right h1{
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .jackpot{
+    padding: 0px;
+  }
+  .jackpot h1{
+    border: none;
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .features-02 p {
+    padding-right: 0px;
+  }
+  .design .design-right h1 {
+    font-size: 27px;
+    line-height: 36px;
+    padding: 38px 0px;
+  }
+  .ultimate{
+    padding: 0px;
+  }
+  .ultimate h1 {
+    color: #242f51;
+    font-size: 27px;
+    font-weight: 600;
+    padding-right: 0px;
+    line-height: 36px;
+  }
+  .ultimate .p-top {
+    padding-right: 0px;
+  }
+  .ultimate .ultimate-r{
+    padding-top: 40px;
+  }
+  .pricing{
+    padding-top: 0px;
+  }
+  .testimonial{
+    background: white;
+    padding: 70px 0px;
+    margin: 35px 0px;
+  }
+  .testimonial .test-l{
+    padding-bottom: 40px;
+  }
+  .FAQ{
+    padding-top: 0px;
+  }
+  .download .row{
+    flex-direction: column-reverse;
+  }
+  .download-l img {
+    padding-bottom: 45px;
+  }
+
+  .screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border-top: 20px solid green;
+    position: relative;
+    animation: rotate 2s linear infinite;
+  }
+  .circle::before{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    content: '';
+    top: -25%;
+    left: 0;
+    border-top: 20px solid blue;
+    transform: rotate(120deg);
+  }
+  .circle::after{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    content: '';
+    top: -25%;
+    right: 0;
+    border-top: 20px solid red;
+    transform: rotate(240deg);
+  }
+  @keyframes rotate{
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  .hidden{
+    visibility: visible;
+  }
+  
+}
