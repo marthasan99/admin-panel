@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/bold.css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/simple-datatables.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- quill -->
+    <link rel="stylesheet" href="css/quill.bubble.css">
+    <link rel="stylesheet" href="css/quill.snow.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-center">
+                        <h2>Super Admin</h2>
+                        <div class="toggler">
+                            <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+
+                        <li class="sidebar-item ">
+                            <a href="index.html" class='sidebar-link'>
+                                <i class="fas fa-crown"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-users-cog"></i>
+                                <span>User Management</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-spider"></i>
+                                <span>Agent Management</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Account Request</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Denied Accounts</a>
+                                </li>
+                                <li class="submenu-item">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Approved Accounts</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Inactive Accounts</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Document Request</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-wallet"></i>
+                                <span>Wallet Management</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fab fa-accusoft"></i>
+                                <span>Bookings</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Booking Request</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Denied Bookings</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Cancelled Bookings</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="approve-bookings.html">Approved Bookings</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub active">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-boxes"></i>
+                                <span>Inventory Management</span>
+                                <span class="new">New</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item active">
+                                    <i class="fas fa-th"></i>
+                                    <a href="inventory.html">Edit Inventory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-grid-1x2-fill"></i>
+                                <span>Category</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-file"></i>
+                                <span>Reports</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <i class="fas fa-th"></i>
+                                    <a href="#">Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-file-invoice"></i>
+                                <span>Invoices</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-coins"></i>
+                                <span>Credit Notes</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-file-alt"></i>
+                                <span>VAT Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class='sidebar-link'>
+                                <i class="fas fa-tags"></i>
+                                <span>Coupons</span>
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+            </div>
+        </div>
+        <div class="page-heading">
+            <i class="bi bi-bell-fill"></i>
+            <img src="assets/images/faces/1.jpg" alt="">
+        </div>
+        <div id="main">
+            <header class="">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+            </header>
+            <div class="page-content">
+                <div class="row up-bar">
+                    <div class="col-md-12">
+                        <i class="bi bi-file-check-fill"></i>
+                        <span>Edit Inventory</span>
+                    </div>
+                </div>
+                <div class="progress-bars">
+                    <div class="step">
+                        <div class="bullet active2">
+                            <span>0%</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+                        <p>Tour Details</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>20%</span>
+                        </div>
+                        <!-- <div class="check fas fa-check"></div> -->
+                        <p>Add Location</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>40%</span>
+                        </div>
+                        <!-- <div class="check fas fa-check"></div> -->
+                        <p>package Details</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>60%</span>
+                        </div>
+                        <!-- <div class="check fas fa-check"></div> -->
+                        <p>Travelers Details</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>80%</span>
+                        </div>
+                        <!-- <div class="check fas fa-check"></div> -->
+                        <p>Transport Details</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>100%</span>
+                        </div>
+                        <!-- <div class="check fas fa-check"></div> -->
+                        <p>Done</p>
+                    </div>
+                </div>
+            </div>
+            <div id="input-style" class="inventory">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header package-card">
+                                <h4 class="card-title"></h4>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-header package-card">
+                                                    <h4 class="card-title">Add Location</h4>
+                                                </div>
+                                                <div class="card-body">
+                                                    <form action="">
+                                                        <div class="row page-03">
+                                                            <div class="col-md-4">
+                                                                <fieldset class="form-group">
+                                                                    <label for="basicInput">Country</label>
+                                                                    <select class="form-select" id="basicSelect">
+                                                                        <option>United Arab Emirates</option>
+                                                                        <option>Demo</option>
+                                                                        <option>Demo</option>
+                                                                    </select>
+                                                                </fieldset>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <fieldset class="form-group">
+                                                                    <label for="basicInput">City</label>
+                                                                    <select class="form-select" id="basicSelect">
+                                                                        <option>Dubai</option>
+                                                                        <option>Demo</option>
+                                                                        <option>Demo</option>
+                                                                    </select>
+                                                                </fieldset>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 btn-group-2 ">
+                                                <div class="d-flex justify-content-between ">
+                                                    <a href="inventory.html"><button class=""><i class="fas fa-chevron-left ">Previous</i></button></a>
+                                                    <a href="inventory03.html"><button>Next<i class="fas fa-chevron-right "></i></button></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <footer>
+                    <div class="footer clearfix mb-0 text-muted ">
+                        <div class="float-start ">
+                            <p>Version 1.4.5</p>
+                        </div>
+                        <div class="float-end "></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="js/perfect-scrollbar.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/apexcharts.js"></script>
+        <script src="js/dashboard.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+
+        <script src="js/simple-datatables.js"></script>
+
+        <script src="js/quill.min.js"></script>
+        <script src="js/form-editor.js"></script>
+        <script>
+            // Simple Datatable
+            let table1 = document.querySelector('#table1');
+            let dataTable = new simpleDatatables.DataTable(table1);
+        </script>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>
