@@ -1,84 +1,128 @@
-    /* 
+@media (min-width:1920px) {
+    .inventory {
+        margin-top: -6%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .inventory {
+        margin-top: -10%;
+    }
+}
+
+
+/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-    
-    @media (min-width: 1281px) {
-        /* CSS */
-        .inventory01 {
+
+@media (min-width: 1281px) {
+    /* CSS */
+    /* .inventory01 {
             margin-top: -6.5%;
         }
         .inventory {
             margin-top: -10%;
-        }
-    }
-    /* 
+        } */
+}
+
+
+/* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-    
-    @media (min-width: 1025px) and (max-width: 1280px) {
-        /* CSS */
-        .progress-bars .step .bullet::before,
-        .progress-bars .step .bullet::after {
-            width: 368%;
-        }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+    .progress-bars .step .bullet::before,
+    .progress-bars .step .bullet::after {
+        width: 368%;
     }
-    /* 
+}
+
+
+/* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-    
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .inventory01 {
-            margin-top: -17%;
-        }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .inventory01 {
+        margin-top: -17%;
     }
-    /* 
+}
+
+
+/* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-    
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        .inventory01 {
-            margin-top: -17%;
-        }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .inventory01 {
+        margin-top: -17%;
     }
-    /* 
+}
+
+
+/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
-    
-    @media (min-width: 481px) and (max-width: 767px) {
-        .inventory01 {
-            margin-top: -20%;
-        }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .inventory01 {
+        margin-top: -20%;
     }
-    /* 
+}
+
+
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-    
-    @media (min-width: 320px) and (max-width: 480px) {
-        .radio-1 {
-            flex-direction: column;
-        }
-        .progress-bars {
-            display: none;
-        }
-        .col-1 {
-            padding-right: 40px;
-        }
-        .dataTable-dropdown {
-            margin-bottom: 10px;
-        }
-        .text-icon i {
-            position: absolute;
-            bottom: 21%;
-            right: 48%;
-            z-index: 9000;
-        }
-        .btn2 {
-            padding: 5px 1.70%
-        }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .radio-1 {
+        flex-direction: column;
     }
+    .progress-bars {
+        display: none;
+    }
+    .col-1 {
+        padding-right: 40px;
+    }
+    .dataTable-dropdown {
+        margin-bottom: 10px;
+    }
+    .text-icon i {
+        position: absolute;
+        bottom: 21%;
+        right: 48%;
+        z-index: 9000;
+    }
+    .btn2 {
+        padding: 5px 1.70%
+    }
+    .tour-options-r,
+    .tour-options-l {
+        font-size: 12px;
+    }
+    .tour-options-r ul {
+        margin-left: -180px;
+    }
+    .pdown {
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+    td input {
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    .tour-options-r ul {
+        margin-left: -200px;
+    }
+}
