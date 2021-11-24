@@ -265,7 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div id="input-style" class="inventory-05">
+            <div id="input-style" class="inventory">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
@@ -278,107 +278,188 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="card">
-                                                <div class="card-header package-card">
+                                                <div class="card-header package-card d-flex justify-content-between">
                                                     <h4 class="card-title">Transport Details</h4>
+                                                    <button class="btn3">Add transport</button>
                                                 </div>
-                                                <div class="card-body inventory05">
-                                                    <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-4">
-                                                                <h6>Transport Type</h6>
-                                                                <fieldset class="form-group">
-                                                                    <select class="form-select" id="basicSelect">
+                                            </div>
+                                            <div class="card-body inventory05">
+                                                <form action="">
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <h6>Transport Type</h6>
+                                                            <fieldset class="form-group">
+                                                                <select class="form-select" id="basicSelect">
                                                                         <option>SIC</option>
                                                                         <option>Demo</option>
                                                                         <option>demo</option>
                                                                     </select>
-                                                                </fieldset>
-                                                                <h6>Pickup Location</h6>
-                                                                <fieldset class="form-group">
-                                                                    <select class="form-select" id="basicSelect">
+                                                            </fieldset>
+                                                            <h6>Pickup Location</h6>
+                                                            <fieldset class="form-group">
+                                                                <select class="form-select" id="basicSelect">
                                                                         <option>Bur Dubai</option>
                                                                         <option>Demo</option>
                                                                         <option>Demo</option>
                                                                     </select>
-                                                                </fieldset>
-                                                                <h6>Pickup Start</h6>
-                                                                <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                            </fieldset>
+                                                            <h6>Pickup Start</h6>
+                                                            <select class="form-select" disabled="disabled" id="disabledSelect">
                                                                         <option>10:00</option>
                                                                         <option>Demo</option>
                                                                         <option>Demo</option>
                                                                     </select>
-                                                                </fieldset>
+                                                            </fieldset>
 
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Adult Rates</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
                                                             </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group sec-col">
-                                                                    <label for="basicInput">Adult Rates</label>
-                                                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
-                                                                </div>
-                                                                <div class="form-group sec-col">
-                                                                    <label for="basicInput">Operating Days</label>
-                                                                    <input type="text" class="form-control" id="basicInput" placeholder="Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday">
-                                                                </div>
-                                                                <h6>Pickup End</h6>
-                                                                <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Operating Days</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday">
+                                                            </div>
+                                                            <h6>Pickup End</h6>
+                                                            <select class="form-select" disabled="disabled" id="disabledSelect">
                                                                             <option>2:00</option>
                                                                             <option>Demo</option>
                                                                             <option>Demo</option>
                                                                         </select>
-                                                                </fieldset>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Child Rates</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
                                                             </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group sec-col">
-                                                                    <label for="basicInput">Child Rates</label>
-                                                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
-                                                                </div>
-                                                                <div class="row radio-flex">
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-check">
-                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                                                TBA
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-check">
-                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                                                STA
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-4">
-                                                                        <div class="form-check">
-                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                                                None
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-check radio-flex2">
+                                                            <div class="row radio-flex">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
                                                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                                         <label class="form-check-label" for="flexRadioDefault1">
-                                                                            Add Seasonal Price
-                                                                        </label>
+                                                                                TBA
+                                                                            </label>
                                                                     </div>
                                                                 </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                                STA
+                                                                            </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                                None
+                                                                            </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-check radio-flex2">
+                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Add Seasonal Price
+                                                                        </label>
+                                                                </div>
+                                                            </div>
 
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <button class="remove-btn"><i class="fas fa-times"></i>Remove</button>
-                                                            </div>
                                                         </div>
-                                                    </form>
+                                                        <div class="col-md-4">
+                                                            <button class="remove-btn"><i class="fas fa-times"></i>Remove</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row row-2">
+                                                        <div class="col-md-4">
+                                                            <h6>Transport Type</h6>
+                                                            <fieldset class="form-group">
+                                                                <select class="form-select" id="basicSelect">
+                                                                        <option>SIC</option>
+                                                                        <option>Demo</option>
+                                                                        <option>demo</option>
+                                                                    </select>
+                                                            </fieldset>
+                                                            <h6>Pickup Location</h6>
+                                                            <fieldset class="form-group">
+                                                                <select class="form-select" id="basicSelect">
+                                                                        <option>Bur Dubai</option>
+                                                                        <option>Demo</option>
+                                                                        <option>Demo</option>
+                                                                    </select>
+                                                            </fieldset>
+                                                            <h6>Pickup Start</h6>
+                                                            <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                                        <option>10:00</option>
+                                                                        <option>Demo</option>
+                                                                        <option>Demo</option>
+                                                                    </select>
+                                                            </fieldset>
 
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 btn-group-2 ">
-                                                <div class="d-flex justify-content-between ">
-                                                    <a href="inventory04.html"><button class=""><i class="fas fa-chevron-left ">Previous</i></button></a>
-                                                    <a href="inventory06.html"><button>Next<i class="fas fa-chevron-right "></i></button></a>
-                                                </div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Adult Rates</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                            </div>
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Operating Days</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday">
+                                                            </div>
+                                                            <h6>Pickup End</h6>
+                                                            <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                                            <option>2:00</option>
+                                                                            <option>Demo</option>
+                                                                            <option>Demo</option>
+                                                                        </select>
+                                                            </fieldset>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="form-group sec-col">
+                                                                <label for="basicInput">Child Rates</label>
+                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                            </div>
+                                                            <div class="row radio-flex">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                                TBA
+                                                                            </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                                STA
+                                                                            </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                                None
+                                                                            </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-check radio-flex2">
+                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Add Seasonal Price
+                                                                        </label>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <button class="remove-btn"><i class="fas fa-times"></i>Remove</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
 
                                             </div>
                                         </div>
@@ -388,40 +469,49 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-                <footer>
-                    <div class="footer clearfix mb-0 text-muted ">
-                        <div class="float-start ">
-                            <p>Version 1.4.5</p>
-                        </div>
-                        <div class="float-end "></div>
-                    </div>
-                </footer>
             </div>
+
+            <div class="col-md-12 btn-group-2 ">
+                <div class="d-flex justify-content-between ">
+                    <a href="inventory04.html"><button class=""><i class="fas fa-chevron-left ">Previous</i></button></a>
+                    <a href="inventory06.html"><button>Next<i class="fas fa-chevron-right "></i></button></a>
+                </div>
+
+            </div>
+
+
+
+
+            <footer>
+                <div class="footer clearfix mb-0 text-muted ">
+                    <div class="float-start ">
+                        <p>Version 1.4.5</p>
+                    </div>
+                    <div class="float-end "></div>
+                </div>
+            </footer>
         </div>
-        <script src="js/perfect-scrollbar.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script src="js/perfect-scrollbar.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-        <script src="js/apexcharts.js"></script>
-        <script src="js/dashboard.js"></script>
+    <script src="js/apexcharts.js"></script>
+    <script src="js/dashboard.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 
-        <script src="js/simple-datatables.js"></script>
+    <script src="js/simple-datatables.js"></script>
 
-        <script src="js/quill.min.js"></script>
-        <script src="js/form-editor.js"></script>
-        <script>
-            // Simple Datatable
-            let table1 = document.querySelector('#table1');
-            let dataTable = new simpleDatatables.DataTable(table1);
-        </script>
+    <script src="js/quill.min.js"></script>
+    <script src="js/form-editor.js"></script>
+    <script>
+        // Simple Datatable
+        let table1 = document.querySelector('#table1');
+        let dataTable = new simpleDatatables.DataTable(table1);
+    </script>
 
-        <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

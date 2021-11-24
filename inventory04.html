@@ -283,121 +283,146 @@
                                                 </div>
                                                 <div class="card-body inventory04">
                                                     <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-9">
-                                                                <table class="table table-bordered">
-                                                                    <thead>
-                                                                        <tr>
-                                                                            <th></th>
-                                                                            <th>Min Age</th>
-                                                                            <th>Max Age</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-check col-1">
-                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                                                    Adult
-                                                                                </label>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-check col-1">
-                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                                                    Infant
-                                                                                </label>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-check col-1">
-                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                                                    Child
-                                                                                </label>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="form-check col-1">
-                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                                                    Senior
-                                                                                </label>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <input type="text" class="form-control" id="basicInput" placeholder="">
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                            <div class="col-md-7">
+                                                        <fieldset id="group2">
+                                                            <div class="row">
+                                                                <div class="col-md-9">
+                                                                    <table class="table table-bordered">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th class="pdown"></th>
+                                                                                <th class="pdown">Min Age</th>
+                                                                                <th class="pdown">Max Age</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="pdown">
+                                                                                    <div class="form-check">
+                                                                                        <div class="checkbox">
+                                                                                            <input type="checkbox" id="checkbox1" class="form-check-input" checked onclick="enableDisableTextBox(this)">
+                                                                                            <label for="checkbox1">Adult</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" id="input1" placeholder="" disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <input type="text" class="form-control" id="input2" placeholder="" disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="pdown">
+                                                                                    <div class="form-check">
+                                                                                        <div class="checkbox">
+                                                                                            <input type="checkbox" id="checkbox2" class="form-check-input" checked onclick="enableDisableTextBox2(this)">
+                                                                                            <label for=" checkbox1 ">Infant</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text " class="form-control " id="input3" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text " class="form-control " id="input4" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="pdown ">
+                                                                                    <div class="form-check ">
+                                                                                        <div class="checkbox ">
+                                                                                            <input type="checkbox" id="checkbox3" class="form-check-input " checked onclick="enableDisableTextBox3(this)">
+                                                                                            <label for="checkbox1 ">Child</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text " class="form-control " id="input5" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text " class="form-control " id="input6" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="pdown ">
+                                                                                    <div class="form-check ">
+                                                                                        <div class="checkbox ">
+                                                                                            <input type="checkbox" id="checkbox4" class="form-check-input " checked onclick="enableDisableTextBox4(this)">
+                                                                                            <label for="checkbox1 ">Senior</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text" class="form-control" id="input7" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group ">
+                                                                                        <input type="text" class="form-control" id="input8" placeholder=" " disabled="disabled">
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                                <div class="col-md-7 ">
 
+                                                                </div>
                                                             </div>
+                                                        </fieldset>
+
+                                                        <p class="ques ">Do children need to be accompanied by at least one adult?</p>
+                                                        <div class="radio-1 ">
+                                                            <form action=" ">
+                                                                <fieldset id="group1 ">
+                                                                    <div class="form-check ">
+                                                                        <input class="form-check-input " type="radio " name="group5 " id="flexRadioDefault1 ">
+                                                                        <label class="form-check-label " for="flexRadioDefault1 ">
+                                                                            Yes
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check ">
+                                                                        <input class="form-check-input " type="radio " name="group5 " id="flexRadioDefault1 ">
+                                                                        <label class="form-check-label " for="flexRadioDefault1 ">
+                                                                            No
+                                                                        </label>
+                                                                    </div>
+                                                                </fieldset>
+
+                                                            </form>
+
                                                         </div>
                                                     </form>
 
                                                 </div>
                                             </div>
-                                            <div class="col-md-12 btn-group-2 ">
-                                                <div class="d-flex justify-content-between ">
-                                                    <a href="inventory03.html"><button class=""><i class="fas fa-chevron-left ">Previous</i></button></a>
-                                                    <a href="inventory05.html"><button>Next<i class="fas fa-chevron-right "></i></button></a>
-                                                </div>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-12 btn-group-2 ">
+                    <div class="d-flex justify-content-between ">
+                        <a href="inventory03.html "><button class=" "><i class="fas fa-chevron-left ">Previous</i></button></a>
+                        <a href="inventory05.html "><button>Next<i class="fas fa-chevron-right "></i></button></a>
+                    </div>
+
                 </div>
 
 
@@ -413,26 +438,86 @@
                 </footer>
             </div>
         </div>
-        <script src="js/perfect-scrollbar.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/perfect-scrollbar.min.js "></script>
+        <script src="js/bootstrap.bundle.min.js "></script>
 
-        <script src="js/apexcharts.js"></script>
-        <script src="js/dashboard.js"></script>
+        <script src="js/apexcharts.js "></script>
+        <script src="js/dashboard.js "></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 
-        <script src="js/simple-datatables.js"></script>
+        <script src="js/simple-datatables.js "></script>
 
-        <script src="js/quill.min.js"></script>
-        <script src="js/form-editor.js"></script>
+        <script src="js/quill.min.js "></script>
+        <script src="js/form-editor.js "></script>
         <script>
             // Simple Datatable
             let table1 = document.querySelector('#table1');
             let dataTable = new simpleDatatables.DataTable(table1);
         </script>
+        <script>
+            function enableDisableTextBox(checkbox1) {
+                var input1 = document.getElementById('input1');
+                var input2 = document.getElementById('input2');
+                input2.disabled = checkbox1.checked ? false : true;
+                if (!input2.disabled) {
+                    input2.focus();
+                }
+                input1.disabled = checkbox1.checked ? false : true;
+                if (!input1.disabled) {
+                    input1.focus();
+                }
+            }
 
-        <script src="js/main.js"></script>
+            function enableDisableTextBox2(checkbox2) {
+                var input3 = document.getElementById('input3');
+                var input4 = document.getElementById('input4');
+
+                input4.disabled = checkbox2.checked ? false : true;
+                if (!input4.disabled) {
+                    input4.focus();
+                }
+
+                input3.disabled = checkbox2.checked ? false : true;
+                if (!input3.disabled) {
+                    input3.focus();
+                }
+            }
+
+            function enableDisableTextBox3(checkbox3) {
+                var input5 = document.getElementById('input5');
+                var input6 = document.getElementById('input6');
+
+                input6.disabled = checkbox3.checked ? false : true;
+                if (!input6.disabled) {
+                    input6.focus();
+                }
+
+                input5.disabled = checkbox3.checked ? false : true;
+                if (!input5.disabled) {
+                    input5.focus();
+                }
+            }
+
+            function enableDisableTextBox4(checkbox4) {
+                var input7 = document.getElementById('input7');
+                var input8 = document.getElementById('input8');
+
+
+                input8.disabled = checkbox4.checked ? false : true;
+                if (!input8.disabled) {
+                    input8.focus();
+                }
+
+                input7.disabled = checkbox4.checked ? false : true;
+                if (!input7.disabled) {
+                    input7.focus();
+                }
+            }
+        </script>
+
+        <script src="js/main.js "></script>
 </body>
 
 </html>

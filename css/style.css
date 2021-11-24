@@ -146,7 +146,12 @@
     }
     
     .btn-group {
+        margin-bottom: 5px;
         margin-top: 20px;
+    }
+    
+    .btn-group a {
+        text-decoration: none;
     }
     
     .booking-t {
@@ -154,6 +159,10 @@
         font-size: 12px;
         font-weight: 700;
         color: #000;
+    }
+    
+    .booking-t a {
+        text-decoration: none;
     }
     
     .booking-ref {
@@ -315,6 +324,10 @@
         font-weight: 500;
     }
     
+    .package-card h4 {
+        color: #000;
+    }
+    
     .overview {
         margin-top: 20px;
     }
@@ -417,4 +430,92 @@
     
     .remove-btn i {
         margin-right: 4px;
+    }
+    
+    .btn3 {
+        border: 1px solid #000;
+        background: transparent;
+        color: black;
+        padding: 2px 10px;
+    }
+    
+    .row-2 {
+        padding-top: 40px;
+    }
+    
+    .icon2 i {
+        color: red;
+    }
+    
+    .icon1 i {
+        color: green;
+        margin-right: 5px;
+    }
+    
+    .icon-grp a i {
+        font-size: 20px;
+    }
+    
+    .icon-grp .icon01 i {
+        color: Green;
+    }
+    
+    .icon-grp .icon02 i {
+        color: red;
+    }
+    
+    .btn-group2 a {
+        text-decoration: none;
+    }
+    
+    .btn-group2 a button {
+        padding: 3px 10px;
+        border: none;
+        color: white;
+    }
+    
+    .btn-group2 a .go-btn {
+        background: green;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    .btn-group2 a .add-btn {
+        background: #790024;
+    }
+    
+    .tour-options-l {
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+    }
+    
+    .tour-options-r {
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .tour-options-l ul,
+    .tour-options-r ul {
+        padding-left: 0px;
+    }
+    
+    .tour-options-l ul li,
+    .tour-options-r ul li {
+        list-style: none;
+        padding: 5px 0px;
+    }
+    
+    .int-6-head h3 {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .int-6-head small {
+        padding-top: 0px;
+    }
+    
+    .ques {
+        font-size: 14px;
     }
