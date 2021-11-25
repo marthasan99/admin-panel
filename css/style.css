@@ -360,6 +360,7 @@
     }
     
     .text-icon i {
+        color: black!important;
         position: absolute;
         bottom: 25%;
         right: 25%;
@@ -426,6 +427,7 @@
         color: #fff;
         border: none;
         margin-top: 50px;
+        margin-bottom: 80px;
     }
     
     .remove-btn i {
@@ -518,4 +520,27 @@
     
     .ques {
         font-size: 14px;
+    }
+    /* for slider */
+    
+    .form-outer {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .form-outer .form {
+        display: flex;
+        width: 600%;
+    }
+    
+    .form-outer .form .page {
+        width: 16.66666%;
+    }
+    
+    footer {
+        padding-top: 80px;
+    }
+    
+    .remove-transport {
+        display: none;
     }

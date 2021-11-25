@@ -220,154 +220,968 @@
                         <span>Edit Inventory</span>
                     </div>
                 </div>
-                <div class="progress-bars">
-                    <div class="step">
-                        <div class="bullet">
-                            <span>0%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>Tour Details</p>
-                    </div>
-                    <div class="step">
-                        <div class="bullet">
-                            <span>20%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>Add Location</p>
-                    </div>
-                    <div class="step">
-                        <div class="bullet">
-                            <span>40%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>package Details</p>
-                    </div>
-                    <div class="step">
-                        <div class="bullet">
-                            <span>60%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>Travelers Details</p>
-                    </div>
-                    <div class="step">
-                        <div class="bullet">
-                            <span>80%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>Transport Details</p>
-                    </div>
-                    <div class="step">
-                        <div class="bullet">
-                            <span>100%</span>
-                        </div>
-                        <!-- <div class="check fas fa-check"></div> -->
-                        <p>Done</p>
-                    </div>
-                </div>
+
             </div>
-            <div id="input-style" class="inventory01">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header package-card">
-                                <h4 class="card-title"></h4>
+            <div class="form-outer">
+                <div class="form">
+                    <div class="page slidepage">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
                             </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>20%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>40%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>60%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>80%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>100%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
 
-                            <div class="card-body">
-                                <div class="">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="card">
-                                                <div class="card-header package-card">
-                                                    <h4 class="card-title">Tour Details</h4>
-                                                </div>
-                                                <div class="card-body">
-                                                    <form action="">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label for="basicInput">SKU:</label>
-                                                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="basicInput">Minimun Passengers</label>
-                                                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
-                                                                </div>
-                                                                <fieldset class="form-group">
-                                                                    <label for="basicInput">SKU:</label>
-                                                                    <select class="form-select" id="basicSelect">
-                                                                        <option selected="selected">Trio Tour</option>
-                                                                        <option>Demo 2</option>
-                                                                        <option>Demo 3</option>
-                                                                    </select>
-                                                                </fieldset>
-                                                                <div class="form-group mb-3">
-                                                                    <label for="exampleFormControlTextarea1" class="form-label"></label>
-                                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Trio Deluxe Packages"></textarea>
-                                                                </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card">
+                                                                <h4 class="card-title">Tour Details</h4>
                                                             </div>
-                                                            <div class="col-md-6">
-                                                                <div class="row ">
-                                                                    <div class="col-md-12">
-                                                                        <div class="form-group">
-                                                                            <label for="basicInput">Tour Name</label>
-                                                                            <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                            <div class="card-body">
+                                                                <form action="">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label for="basicInput">SKU:</label>
+                                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="basicInput">Minimun Passengers</label>
+                                                                                <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                            </div>
+                                                                            <fieldset class="form-group">
+                                                                                <label for="basicInput">SKU:</label>
+                                                                                <select class="form-select" id="basicSelect">
+                                                                                    <option selected="selected">Trio Tour</option>
+                                                                                    <option>Demo 2</option>
+                                                                                    <option>Demo 3</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                            <div class="form-group mb-3">
+                                                                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Trio Deluxe Packages"></textarea>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <div class="col-md-12">
-                                                                        <div class="form-group">
-                                                                            <label for="basicInput">Maximum Passengers</label>
-                                                                            <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-6">
-                                                                        <div class="form-group mb-3">
-                                                                            <label for="exampleFormControlTextarea1" class="form-label">Related Tours</label>
-                                                                            <textarea class="form-control text-area-1" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                                                            <div class="text-icon"><i class="fas fa-exchange-alt"></i></div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="row ">
+                                                                                <div class="col-md-12">
+                                                                                    <div class="form-group">
+                                                                                        <label for="basicInput">Tour Name</label>
+                                                                                        <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-12">
+                                                                                    <div class="form-group">
+                                                                                        <label for="basicInput">Maximum Passengers</label>
+                                                                                        <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group mb-3">
+                                                                                        <label for="exampleFormControlTextarea1" class="form-label">Related Tours</label>
+                                                                                        <textarea class="form-control text-area-1" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                                                        <div class="text-icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
 
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group mb-3">
+                                                                                        <label for="exampleFormControlTextarea1" class="form-label disabled-01">Basic</label>
+                                                                                        <textarea class="form-control text-area-1" id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-md-6">
-                                                                        <div class="form-group mb-3">
-                                                                            <label for="exampleFormControlTextarea1" class="form-label disabled-01">Basic</label>
-                                                                            <textarea class="form-control text-area-1" id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                                                                </form>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 btn-group-2 ">
+                                <div class="d-flex justify-content-between ">
+                                    <a href=""><button class="disabled-01"><i class="fas fa-chevron-left ">Previous</i></button></a>
+                                    <div class="nextbtn"><button>Next<i class="fas fa-chevron-right "></i></button></div>
+                                </div>
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>20%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>40%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>60%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>80%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>100%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card">
+                                                                <h4 class="card-title">Add Location</h4>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <form action="">
+                                                                    <div class="row page-03">
+                                                                        <div class="col-md-4">
+                                                                            <fieldset class="form-group">
+                                                                                <label for="basicInput">Country</label>
+                                                                                <select class="form-select" id="basicSelect">
+                                                                                    <option>United Arab Emirates</option>
+                                                                                    <option>Demo</option>
+                                                                                    <option>Demo</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <fieldset class="form-group">
+                                                                                <label for="basicInput">City</label>
+                                                                                <select class="form-select" id="basicSelect">
+                                                                                    <option>Dubai</option>
+                                                                                    <option>Demo</option>
+                                                                                    <option>Demo</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 btn-group-2 ">
+                                <div class="d-flex justify-content-between ">
+                                    <div class="prevbtn2"><button><i class="fas fa-chevron-left ">Previous</i></button></div>
+                                    <div class="nextbtn2"><button>Next<i class="fas fa-chevron-right "></i></button></div>
+                                </div>
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>20%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>40%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>60%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>80%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>100%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card">
+                                                                <h4 class="card-title">Package Details</h4>
+                                                                <p>Selected Package Details</p>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="radio-1">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Instant Confirmation
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                            No Cancellation
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Show Mobile or Printed Voucher
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Open Date Ticket
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                                            Entry Directly With Voucher
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="accordion accordion-flush overview" id="accordionFlushExample">
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                          Overview
+                                                                        </button>
+                                                                        </h2>
+                                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                                            <div class="accordion-body">
+                                                                                <div class="editor">
+                                                                                    <div class="card">
+
+                                                                                        <div class="card-body">
+                                                                                            <p>Block some text to display options in poppovers </p>
+                                                                                            <div id="full">
+                                                                                                <p>Hello World!</p>
+                                                                                                <p>Some initial <strong>bold</strong> text</p>
+                                                                                                <p><br></p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    </d>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                          Package Description
+                                                                        </button>
+                                                                            </h2>
+                                                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                                                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis commodi sunt ab eius corrupti molestias asperiores in rerum non enim?</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                                          Demo3
+                                                                        </button>
+                                                                            </h2>
+                                                                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                                                <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, libero, odio doloremque fuga nam et facere dolorem ab aperiam quasi dolore earum magni voluptate eligendi
+                                                                                    quis iste soluta omnis odit?</div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </form>
 
+                                                    </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-12 btn-group-2">
+
+                                <div class="d-flex justify-content-between ">
+                                    <div class="prevbtn3"><button><i class="fas fa-chevron-left ">Previous</i></button></div>
+                                    <div class="nextbtn3"><button>Next<i class="fas fa-chevron-right "></i></button></div>
+                                </div>
+
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>20%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>40%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>60%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>80%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>100%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card">
+                                                                <h4 class="card-title">Travelers Details</h4>
+                                                            </div>
+                                                            <div class="card-body inventory04">
+                                                                <form action="">
+                                                                    <fieldset id="group2">
+                                                                        <div class="row">
+                                                                            <div class="col-md-9">
+                                                                                <table class="table table-bordered">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th class="pdown"></th>
+                                                                                            <th class="pdown">Min Age</th>
+                                                                                            <th class="pdown">Max Age</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="pdown">
+                                                                                                <div class="form-check">
+                                                                                                    <div class="checkbox">
+                                                                                                        <input type="checkbox" id="checkbox1" class="form-check-input" onclick="enableDisableTextBox(this)">
+                                                                                                        <label for="checkbox1">Adult</label>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group">
+                                                                                                    <input type="text" class="form-control" id="input1" placeholder="" disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group">
+                                                                                                    <input type="text" class="form-control" id="input2" placeholder="" disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="pdown">
+                                                                                                <div class="form-check">
+                                                                                                    <div class="checkbox">
+                                                                                                        <input type="checkbox" id="checkbox2" class="form-check-input" onclick="enableDisableTextBox2(this)">
+                                                                                                        <label for=" checkbox1 ">Infant</label>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text " class="form-control " id="input3" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text " class="form-control " id="input4" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="pdown ">
+                                                                                                <div class="form-check ">
+                                                                                                    <div class="checkbox ">
+                                                                                                        <input type="checkbox" id="checkbox3" class="form-check-input " onclick="enableDisableTextBox3(this)">
+                                                                                                        <label for="checkbox1 ">Child</label>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text " class="form-control " id="input5" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text " class="form-control " id="input6" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="pdown ">
+                                                                                                <div class="form-check ">
+                                                                                                    <div class="checkbox ">
+                                                                                                        <input type="checkbox" id="checkbox4" class="form-check-input " onclick="enableDisableTextBox4(this)">
+                                                                                                        <label for="checkbox1 ">Senior</label>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text" class="form-control" id="input7" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div class="form-group ">
+                                                                                                    <input type="text" class="form-control" id="input8" placeholder=" " disabled="disabled">
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <div class="col-md-7 ">
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </fieldset>
+
+                                                                    <p class="ques ">Do children need to be accompanied by at least one adult?</p>
+                                                                    <div class="radio-1 ">
+                                                                        <form action=" ">
+                                                                            <fieldset id="group1 ">
+                                                                                <div class="form-check ">
+                                                                                    <input class="form-check-input " type="radio" name="group5" id="flexRadioDefault1 ">
+                                                                                    <label class="form-check-label " for="group5">
+                                                                                        Yes
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="form-check ">
+                                                                                    <input class="form-check-input " type="radio" name="group5" id="flexRadioDefault1 ">
+                                                                                    <label class="form-check-label " for="group5">
+                                                                                        No
+                                                                                    </label>
+                                                                                </div>
+                                                                            </fieldset>
+
+                                                                        </form>
+
+                                                                    </div>
+                                                                </form>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 btn-group-2 ">
+                                <div class="d-flex justify-content-between ">
+                                    <div class="prevbtn4"><button><i class="fas fa-chevron-left ">Previous</i></button></div>
+                                    <div class="nextbtn4"><button>Next<i class="fas fa-chevron-right "></i></button></div>
+                                </div>
+
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>20%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>40%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>60%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>80%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet">
+                                    <span>100%</span>
+                                </div>
+                                <!-- <div class="check fas fa-check"></div> -->
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card d-flex justify-content-between">
+                                                                <h4 class="card-title">Transport Details</h4>
+                                                                <button class="btn3">Add transport</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-body inventory05" id="transport">
+                                                            <form action="">
+                                                                <div class="row">
+                                                                    <div class="col-md-4">
+                                                                        <h6>Transport Type</h6>
+                                                                        <fieldset class="form-group">
+                                                                            <select class="form-select" id="basicSelect">
+                                                                                    <option>SIC</option>
+                                                                                    <option>Demo</option>
+                                                                                    <option>demo</option>
+                                                                                </select>
+                                                                        </fieldset>
+                                                                        <h6>Pickup Location</h6>
+                                                                        <fieldset class="form-group">
+                                                                            <select class="form-select" id="basicSelect">
+                                                                                    <option>Bur Dubai</option>
+                                                                                    <option>Demo</option>
+                                                                                    <option>Demo</option>
+                                                                                </select>
+                                                                        </fieldset>
+                                                                        <h6>Pickup Start</h6>
+                                                                        <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                                                    <option>10:00</option>
+                                                                                    <option>Demo</option>
+                                                                                    <option>Demo</option>
+                                                                                </select>
+                                                                        </fieldset>
+
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="form-group sec-col">
+                                                                            <label for="basicInput">Adult Rates</label>
+                                                                            <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                        </div>
+                                                                        <div class="form-group sec-col">
+                                                                            <label for="basicInput">Operating Days</label>
+                                                                            <input type="text" class="form-control" id="basicInput" placeholder="Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday">
+                                                                        </div>
+                                                                        <h6>Pickup End</h6>
+                                                                        <select class="form-select" disabled="disabled" id="disabledSelect">
+                                                                                        <option>2:00</option>
+                                                                                        <option>Demo</option>
+                                                                                        <option>Demo</option>
+                                                                                    </select>
+                                                                        </fieldset>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="form-group sec-col">
+                                                                            <label for="basicInput">Child Rates</label>
+                                                                            <input type="text" class="form-control" id="basicInput" placeholder="Enter email">
+                                                                        </div>
+                                                                        <div class="row radio-flex">
+                                                                            <div class="col-md-4">
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input" type="radio" name="tba" id="flexRadioDefault1">
+                                                                                    <label class="form-check-label" for="tba">
+                                                                                            TBA
+                                                                                        </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-4">
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input" type="radio" name="tba" id="flexRadioDefault1">
+                                                                                    <label class="form-check-label" for="tba">
+                                                                                            STA
+                                                                                        </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-4">
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input" type="radio" name="tba" id="flexRadioDefault1">
+                                                                                    <label class="form-check-label" for="tba">
+                                                                                            None
+                                                                                        </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-check radio-flex2">
+                                                                                <input class="form-check-input" type="radio" name="seasonal" id="flexRadioDefault1">
+                                                                                <label class="form-check-label" for="seasonal">
+                                                                                        Add Seasonal Price
+                                                                                    </label>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <button type="button" class="remove-btn" id="remove-button"><i class="fas fa-times"></i>Remove</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 btn-group-2 ">
+                                <div class="d-flex justify-content-between ">
+                                    <div class="prevbtn5"><button><i class="fas fa-chevron-left ">Previous</i></button></div>
+                                    <div class="nextbtn5"><button>Next<i class="fas fa-chevron-right "></i></button></div>
+                                </div>
+
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="progress-bars">
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>0%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Tour Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>20%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Add Location</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>40%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>package Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>60%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Travelers Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>80%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Transport Details</p>
+                            </div>
+                            <div class="step">
+                                <div class="bullet active2">
+                                    <span>100%</span>
+                                </div>
+                                <div class="check fas fa-check"></div>
+                                <p>Done</p>
+                            </div>
+                        </div>
+                        <div id="input-style" class="inventory">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header package-card">
+                                            <h4 class="card-title"></h4>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-header package-card">
+                                                                <h4 class="card-title">Thank you!</h4>
+                                                                <p>Tours Updated Successfully</p>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-6 col-lg-5 col-xs-6 col-xl-5">
+                                                                    <div class="card" style="width: 100%;">
+                                                                        <img src="img/dubai.jpg" class="card-img-top img-fluid" alt="...">
+                                                                        <div class="card-body">
+                                                                            <p class="card-text"><span>Start from:</span> 55.50 AED </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-6 col-lg-7 col-xs-6 col-xl-7 int-6-head">
+                                                                    <h3>Dubai Safari Park with Transfer</h3>
+                                                                    <small>Trio Tours</small>
+
+                                                                    <div class="row flex-nowrap">
+                                                                        <div class="col-md-4 col-sm-6 col-lg-4 col-xs-6 col-xl-4 tour-options-l">
+                                                                            <ul>
+                                                                                <li>Country:</li>
+                                                                                <li>City:</li>
+                                                                                <li>Min Passenger:</li>
+                                                                                <li>Max Passenger:</li>
+                                                                                <li>Adult:</li>
+                                                                                <li>Child:</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-md-5 col-sm-6 col-lg-5 col-xs-6 col-xl-5 tour-options-r">
+                                                                            <ul>
+                                                                                <li>United Arab Emirates</li>
+                                                                                <li>Dubai</li>
+                                                                                <li>2</li>
+                                                                                <li>35</li>
+                                                                                <li>Min Age (12) Max Age (50)</li>
+                                                                                <li>Min Age (4) Max Age (11)</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="btn-group2">
+                                                                        <a href=""><button class="go-btn">Go to Tour List</button></a>
+                                                                        <a href=""><button class="add-btn">Add More Tour</button></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 btn-group-2 ">
+                                <div class="d-flex justify-content-between ">
+                                    <div class="prevbtn"><button><i class="fas fa-chevron-left ">Previous</i></button></div>
+                                    <!-- <div class="nextbtn2"><button>Next<i class="fas fa-chevron-right "></i></button></div> -->
+                                </div>
+
+                            </div>
+                            <footer>
+                                <div class="footer clearfix mb-0 text-muted ">
+                                    <div class="float-start ">
+                                        <p>Version 1.4.5</p>
+                                    </div>
+                                    <div class="float-end "></div>
+                                </div>
+                            </footer>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 btn-group-2 ">
-                    <div class="d-flex justify-content-between ">
-                        <a href=""><button class="disabled-01"><i class="fas fa-chevron-left ">Previous</i></button></a>
-                        <a href="inventory02.html"><button>Next<i class="fas fa-chevron-right "></i></button></a>
-                    </div>
-                </div>
 
-
-
-
-                <footer>
-                    <div class="footer clearfix mb-0 text-muted ">
-                        <div class="float-start ">
-                            <p>Version 1.4.5</p>
-                        </div>
-                        <div class="float-end "></div>
-                    </div>
-                </footer>
             </div>
+
+
         </div>
         <script src="js/perfect-scrollbar.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
@@ -388,7 +1202,9 @@
             let dataTable = new simpleDatatables.DataTable(table1);
         </script>
 
+
         <script src="js/main.js"></script>
+        <script src="js/custom.js"></script>
 
 
 

@@ -119,6 +119,10 @@
         padding-left: 0rem!important;
         padding-right: 0rem!important;
     }
+    .btn-group2 button:last-child {
+        margin-left: 10px;
+        margin-top: 12px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575px) {
