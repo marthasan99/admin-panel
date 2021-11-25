@@ -123,18 +123,9 @@ lastPrevBtn.addEventListener("click", function() {
 const addButton = document.querySelector(".btn3");
 const transportSection = document.querySelector("#transport");
 let firstTransport = document.querySelector("#transport form");
-// let removeButton = document.getElementsByClassName("remove-btn");
 
 
 
 addButton.addEventListener("click", function addNewTransport() {
     transportSection.innerHTML += firstTransport.innerHTML;
 })
-
-
-// var removeButtonNo = removeButton.length;
-// for (let i = 0; i < removeButtonNo; i++) {
-//     removeButton[i].addEventListener("click", function removeTransport() {
-//         firstTransport.lastChild.remove();
-//     })
-// }

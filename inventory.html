@@ -1017,7 +1017,7 @@
 
                                                                     </div>
                                                                     <div class="col-md-4">
-                                                                        <button type="button" class="remove-btn" id="remove-button"><i class="fas fa-times"></i>Remove</button>
+                                                                        <button type="button" class="remove-btn" id="remove-button" onclick="this.parentElement.parentElement.remove();"><i class="fas fa-times"></i>Remove</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -1201,8 +1201,6 @@
             let table1 = document.querySelector('#table1');
             let dataTable = new simpleDatatables.DataTable(table1);
         </script>
-
-
         <script src="js/main.js"></script>
         <script src="js/custom.js"></script>
 
